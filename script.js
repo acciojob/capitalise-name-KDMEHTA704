@@ -1,3 +1,6 @@
 //your JS code here. If required.
-document.getElementById("fname").addEventListener("blur", function() {
-this.value = this.value.toUpperCase();
+document.addEventListener("DOMContentLoaded", function() {
+            let inputField = document.getElementById("fname");
+
+            inputField.addEventListener("blur", function() {
+                this.value = this.value.toUpperCase();
